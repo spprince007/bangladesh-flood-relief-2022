@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.top-section {
+    background-image: url(images/banner-background-baby.jpg);
+    background-repeat: no-repeat;
+}
+
+.content-area {
+    padding: 15% 20%;
+    margin: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.content-area h1 {
+    color: aliceblue;
+
+}
+
+.content-area p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.content-area {
+    text-align: center;
+}
+
+
+.link-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(yellow, tomato);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.total-price {
+    display: flex;
+    padding: 5%;
+}
+
+/* 2nd section */
+.donate-price {
+    display: inline-block;
+    width: 20%;
+    height: 85px;
+    background-color: #7D7D7D26;
+    margin: 12px;
+    padding-top: 40px;
+    border-radius: 4px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-area-2nd {
+    text-align: center;
+}
+
+.price-active {
+    background-color: #F37E7E26;
+    border: 3px solid #dc2727;
+    color: #dc2727;
+    box-shadow: 0px 1px 10px 0px #888888;
+}
+
+.donate-price:hover {
+    background-color: #F37E7E26;
+    border: 3px solid #dc2727;
+    color: #dc2727;
+    box-shadow: 0px 1px 10px 0px #888888;
+}
+
+.input-form {
+    text-align: center;
+}
+
+.input-tk {
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid #ada8a8;
+    width: 50%;
+    padding: 20px;
+}
