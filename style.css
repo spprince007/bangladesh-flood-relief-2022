@@ -166,3 +166,29 @@ text-align: justify;
 #relief-left{
     float: left;
 }
+.count-down{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background-color: #ff000077;
+    margin: 12px;
+    padding-top: 80px;
+    border-radius: 200px;
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #000;
+}
+.count-down h3 {
+	padding-top: 25px;
+}
+.countdown-part{
+    display: flex;
+    padding:5%;
+}
+
+.count-down:hover{
+  
+    background-color: #04215fb7;
+   color: #fff;
+    border: 5px solid rgb(255, 0, 0);
+}
